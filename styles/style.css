@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+#NavigationContainer{
+    display:flex;
+    flex-grow:0;
+    border: 1px solid #bebebe;
+    
+}
+
+#LeftNavigation {
+    padding: 0px 0px 0px 15px;
+}
+
+RightNavigation{
+
+}
+
+.MenuItem{
+
+}
+
+.ContentContainer{
+
+}
