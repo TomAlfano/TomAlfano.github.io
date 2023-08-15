@@ -2,25 +2,56 @@ body{
     margin:0;
 }
 
-#NavigationContainer{
+.NavigationContainer{
     display:flex;
     flex-grow:0;
+    justify-content:space-between;
     border: 1px solid #bebebe;
     
 }
 
-#LeftNavigation {
+.LeftNavigation {
     padding: 0px 0px 0px 15px;
 }
 
-RightNavigation{
-
+.RightNavigation {
+    padding: 0px 15px 0px 15px;
+    border-left: 1px solid #bebebe;
 }
 
 .MenuItem{
 
 }
 
-.ContentContainer{
+.ContentContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.ContentSection{
+
+}
+
+.MainContent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.MainPicture{
+    max-height:auto;
+    max-width:450px;
+}
+
+.Information{
+    max-width:500px;
+}
+
+.SectionTitle{
+
+}
+
+.SectionContent{
 
 }
