@@ -53,13 +53,18 @@ a:active {
     padding: 0px 0px 0px 15px;
 }
 
-.RightNavigation {
-    padding: 0px 15px 0px 15px;
-    border-left: 1px solid #bebebe;
+.NavigationLogo{
+
 }
 
-.MenuItem{
+.RightNavigation {
+    display:flex;
+    flex-direction:row;
+}
 
+.MenuItem {
+    padding: 0px 15px 0px 15px;
+    border-left: 1px solid #bebebe;
 }
 
 
