@@ -6,7 +6,16 @@
         display:flex;
         flex-direction: column;
         max-width: 500px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .MenuItem {
+        padding: 0px 5px 0px 5px;
+        border-left: 1px solid #bebebe;
+        font-size: 0.94em;
+    }
+
+    .NavigationLogo {
+        font-size: 0.94em;
     }
 }
 
@@ -29,21 +38,29 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
-    color: dimgrey;
-}
+    a:hover {
+        color: #2b373f;
+    }
 
 /* selected link */
 a:active {
     color: grey;
 }
 
-.NavigationContainer{
-    display:flex;
-    flex-grow:0;
-    justify-content:space-between;
-    border-bottom: 1px solid #bebebe;
-    
+.ContentContainer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    background-color: #ededed;
+}
+
+.NavigationContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .LeftNavigation {
@@ -60,16 +77,15 @@ a:active {
 }
 
 .MenuItem {
-    padding: 0px 15px 0px 15px;
+    padding: 0 15px 0 15px;
     border-left: 1px solid #bebebe;
 }
+    .MenuItem:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    }
 
 
-.ContentContainer {
-    display: flex;
-    justify-content: center;
-    padding: 25px 0px 0px 0px;
-}
+
 
 .ContentSection{
 
@@ -79,14 +95,15 @@ a:active {
     display:flex;
     flex-direction:column;
     align-items:center;
+    padding: 25px 0 0 0;
 }
 
 .IndexMainHero {
     display: flex;
     flex-direction: row;
+    background-color: white;
     max-width: 900px;
-    margin:0 10px 0 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 10px 0 10px;
 }
 
 .IndexMainHeroContainer{
