@@ -1,7 +1,6 @@
 
-
+/* When Screen Small */
 @media all and (max-width: 800px) {
-    /* CSS rules here for screens lower than 750px */
     div.IndexMainHero {
         display:flex;
         flex-direction: column;
@@ -38,9 +37,9 @@ a:visited {
 }
 
 /* mouse over link */
-    a:hover {
-        color: #2b373f;
-    }
+a:hover {
+    color: #2b373f;
+}
 
 /* selected link */
 a:active {
@@ -49,18 +48,25 @@ a:active {
 
 .ContentContainer {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     padding: 0px 0px 0px 0px;
     background-color: #ededed;
 }
+
+/* Navigation */
 
 .NavigationContainer {
     display: flex;
     justify-content: space-between;
     background-color:white;
     width:100%;
+    max-height:100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.NavigationContainer h1 {
+    margin: 10px 0 10px 0;
+    font-family: Poppins;
 }
 
 .LeftNavigation {
@@ -80,22 +86,18 @@ a:active {
     padding: 0 15px 0 15px;
     border-left: 1px solid #bebebe;
 }
-    .MenuItem:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
-    }
-
-
-
-
-.ContentSection{
-
+.MenuItem:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
-.MainContent{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+/* Intro Hero */
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 25px 0 0 0;
+    font-family: Arial;
 }
 
 .IndexMainHero {
@@ -114,6 +116,17 @@ a:active {
 .Information {
     padding: 20px 10px 5px 20px;
     max-width: 600px;
+}
+
+/* Content */
+
+.ContentSection {
+    background-color: white;
+    padding: 5px 10px 10px 10px;
+}
+
+.SectionContainer{
+
 }
 
 .SectionTitle{
